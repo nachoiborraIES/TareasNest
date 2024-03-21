@@ -8,7 +8,7 @@ import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [TareaModule,
-    MongooseModule.forRoot('mongodb://127.0.0.1/tareas-nest'),
+    MongooseModule.forRoot('mongodb://mi_bd_mongo/tareas-nest'),
     UsuarioModule,
     AuthModule],
   controllers: [AppController],
